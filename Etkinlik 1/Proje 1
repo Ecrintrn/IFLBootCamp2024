@@ -1,0 +1,51 @@
+def toplama(sayi1, sayi2):
+    return sayi1 + sayi2
+
+def cikarma(sayi1, sayi2):
+    return sayi1 - sayi2
+
+def carpma(sayi1, sayi2):
+    return sayi1 * sayi2
+
+def bolme(sayi1, sayi2):
+    if sayi2 != 0:
+        return sayi1 / sayi2
+    else:
+        return "Bölen 0(sıfır) olamaz"
+
+def kuvvet(sayi1, sayi2):
+    return sayi1 ** sayi2
+
+def main():
+    while True:
+        print("Yapmak istediğiniz işlemi seçin:")
+        print("1. Toplama")
+        print("2. Çıkarma")
+        print("3. Çarpma")
+        print("4. Bölme")
+        print("5. Kuvvet Alma")
+        print("Çıkış (q/Q)")
+        
+        secim = input("Seçiminizi girin (1-5): ")
+        if secim.lower() == 'q':
+            print("Çıkış yapılıyor...")
+            break
+        
+        sayi1 = float(input("\nBirinci sayıyı girin: "))
+        sayi2 = float(input("\nİkinci sayıyı girin: "))
+    
+        if secim == '1':
+            print(f"\n{sayi1} + {sayi2} = {toplama(sayi1, sayi2)}\n")
+        elif secim == '2':
+            print(f"\n{sayi1} - {sayi2} = {cikarma(sayi1, sayi2)}\n")
+        elif secim == '3':
+            print(f"\n{sayi1} * {sayi2} = {carpma(sayi1, sayi2)}\n")
+        elif secim == '4':
+            print(f"\n{sayi1} / {sayi2} = {bolme(sayi1, sayi2)}\n")
+        elif secim == '5':
+            print(f"\n{sayi1} ^ {sayi2} = {kuvvet(sayi1, sayi2)}\n")
+        else:
+            print("Geçersiz seçim!")
+
+if __name__ == "__main__":
+    main()
