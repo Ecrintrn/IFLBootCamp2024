@@ -22,6 +22,6 @@ Iris Veriseti'ni Lojistik Regresyon makine öğrenmesi ile tahmin yapıldı.
 [Etkinlik 4](https://github.com/Ecrintrn/IFLBootCamp2024/tree/main/Etkinlik%204)
 
 # Etkinlik 5
-**A** kısmında kullanıcının sıralı bir şekilde ve küçükten büyüğe verdiği örüntünün hangi örüntü kurallarına uyduğu ve bir sonraki elemanı bulundu. **B** kısmında kullanıcının sıralı verdiği ve küçükten büyüğe verdiği örüntüdeki bilinmeyen sayıyı bulma ve hangi örüntüye ait olduğu yapıldı.(Palindrom, aritmetik ve geometrik örüntü kısımları yapılma aşamasında)
+**A** kısmında kullanıcının sıralı bir şekilde ve küçükten büyüğe verdiği örüntünün hangi örüntü kurallarına uyduğu ve bir sonraki elemanı bulundu. **B** kısmında kullanıcının sıralı verdiği ve küçükten büyüğe verdiği örüntüdeki bilinmeyen sayıyı bulma ve hangi örüntüye ait olduğu yapıldı.(Palindrom, aritmetik ve geometrik örüntü kısımları yapılma aşamasında). **C_1** bölümünde **A** kısmında kullanıcının verdiği örüntüyü sadece küçükten büyüğe verebilirken bu bölüm ile büyükten küçüğe de verebileceğiz.
 
 [Etkinlik 5](https://github.com/Ecrintrn/IFLBootCamp2024/tree/main/Etkinlik%205)
